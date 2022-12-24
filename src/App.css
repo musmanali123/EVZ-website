@@ -1,0 +1,253 @@
+.ScreenOneCompOne {
+  position: relative;
+  height: 500px;
+  left: 10px;
+
+  transform: skew(10deg);
+}
+
+.bg {
+  margin-top: 10px;
+  background-image: url("../src/Components/Assets/images/bannerThree.png");
+  width: 100vw;
+  height: 100vw;
+  background-size: cover;
+  background-position: center;
+}
+
+.bgOneTop {
+  background-image: url("../src/Components/Assets/images/bannerOne.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: fixed;
+  height: fixed;
+}
+
+.bgThreeBanner {
+  background-image: url("../src/Components/Assets/images/bannerThree.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 300vh;
+  margin-top: 5rem;
+}
+
+.bgTwoBanner {
+  background-image: url("../src/Components/Assets/images/bannerTwo.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 250vh;
+  margin-top: 5rem;
+}
+
+@media (max-width: 1500px) {
+  .bgOneTop {
+    background-image: url("../src/Components/Assets/images/bannerOneResp.jpg");
+    height: 130vh;
+  }
+  .bgOneCont1 {
+    display: none;
+  }
+
+  .bgOneCont2 {
+    display: none;
+  }
+
+  .bgThreeBanner {
+    background-image: url("../src/Components/Assets/images/bannerThreeResp.jpg");
+    height: 117vh;
+  }
+  .bannerThree {
+    display: none;
+  }
+
+  .bgTwoBanner {
+    background-image: url("../src/Components/Assets/images/bannerTwoResp.jpg");
+    height: 117vh;
+  }
+  .bannerTwo {
+    display: none;
+  }
+
+  .NavItemCenter {
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+
+
+/* @media only screen and (max-width: 768px) {
+  .bgOneTop {
+    background-image: url("../src/Components/Assets/images/bannerOneResp.jpg");
+    height: 350vh;
+  }
+  .bgOneCont1 {
+    display: none;
+  }
+  .bgOneContTwo {
+    display: none;
+  }
+  .bgThreeBanner {
+    background-image: url("../src/Components/Assets/images/bannerThreeResp.jpg");
+    height: 117vh;
+  }
+  .bannerThree {
+    display: none;
+  }
+    .bgTwoBanner {
+    background-image: url("../src/Components/Assets/images/bannerTwoResp.jpg");
+    height: 95vh;
+  }
+  .bannerTwo {
+    display: none;
+  }
+} */
+
+/* @media (max-width: 375px) {
+  .bgOneTop {
+    background-image: url("../src/Components/Assets/images/bannerOneResp.jpg");
+    height: 100vh;
+  }
+  .bgOneCont1 {
+    display: none;
+  }
+  .bgOneContTwo {
+    display: none;
+  }
+  .bgThreeBanner {
+    background-image: url("../src/Components/Assets/images/bannerThreeResp.jpg");
+    height: 87vh;
+  }
+  .bannerThree {
+    display: none;
+  }
+    .bgTwoBanner {
+    background-image: url("../src/Components/Assets/images/bannerTwoResp.jpg");
+    height: 70vh;
+  }
+  .bannerTwo {
+    display: none;
+  }
+  .navElemCenter{
+    justify-content: center;
+  }
+  .BgOnePoint{
+    font-size: 5pt;
+  }
+}
+
+
+@media only screen and (min-width : 768px) and (max-width: 1536px){
+    .bgOneTop {
+    background-image: url("../src/Components/Assets/images/bannerOneResp.jpg");
+    height: 100vh;
+  }
+   .bgOneCont1 {
+    display: none;
+  }
+  .bgThreePoints{
+    margin-top: 50rem;
+    font-size: 3rem;
+   
+  }
+} */
+
+/*for mobile view*/
+/* @media only screen and (min-width: 0px) and (max-width: 599px) {
+  .bgOneTop {
+    background-image: url("../src/Components/Assets/images/bannerOneResp.jpg");
+    height: 140vh;
+  }
+  .bgOneCont1 {
+    display: none;
+  }
+  .bgOneCont2 {
+    display: none;
+  }
+  .bgOneContTwo {
+    display: none;
+  }
+  .bgThreeBanner {
+    background-image: url("../src/Components/Assets/images/bannerThreeResp.jpg");
+    height: 50vh;
+  }
+  .bannerThree {
+    display: none;
+  }
+
+  .bgTwoBanner {
+    background-image: url("../src/Components/Assets/images/bannerTwoResp.jpg");
+    height: 100vh;
+  }
+  .bannerTwo {
+    display: none;
+  }
+}
+
+
+
+
+
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+  .bgOneTop {
+    background-image: url("../src/Components/Assets/images/bannerOneResp.jpg");
+    height: 170vh;
+  }
+  .bgOneCont1 {
+    display: none;
+  }
+  .bgOneContTwo {
+    display: none;
+  }
+  .bannerTwo {
+    display: none;
+  }
+  .bgTwoBanner {
+    background-image: url("../src/Components/Assets/images/bannerTwoResp.jpg");
+    height: 150vh;
+  }
+  .bgThreeBanner {
+    background-image: url("../src/Components/Assets/images/bannerThreeResp.jpg");
+    height: 160vh;
+  }
+  .bannerThree {
+    display: none;
+  }
+} 
+
+ 
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  .bgOneTop {
+    background-image: url("../src/Components/Assets/images/bannerOneResp.jpg");
+    height: 85vh;
+  }
+  .bgOneCont1 {
+    display: none;
+  }
+  .bgOneContTwo {
+    display: none;
+  }
+  .bannerTwo {
+    display: none;
+  }
+  .bgTwoBanner {
+    background-image: url("../src/Components/Assets/images/bannerTwoResp.jpg");
+    height: 70vh;
+  }
+  .bgThreeBanner {
+    background-image: url("../src/Components/Assets/images/bannerThreeResp.jpg");
+    height: 80vh;
+  }
+  .bannerThree {
+    display: none;
+  }
+}  */
+
+/* @media only screen and (min-width: 0px) and (max-width: 1000px) {
+  .navItems {
+    justify-content: center;
+    align-items: center;
+  }
+} */
