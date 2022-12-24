@@ -60,7 +60,7 @@ function ScreenThree() {
             fontFamily: "Calibri",
           }}
         >
-          THE NOVEL SOLUTION TO HUMAN CAPITAL ASSESSMENT
+         ASSESSMEN THE NOVEL SOLUTION TO HUMAN CAPITAL T
         </Typography>
       </div>
       <div
