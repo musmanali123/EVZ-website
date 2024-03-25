@@ -6,14 +6,15 @@
   transform: skew(10deg);
 }
 
-.bg {
+/*.bg {
   margin-top: 10px;
   background-image: url("../src/Components/Assets/images/bannerThree.png");
   width: 100vw;
   height: 100vw;
   background-size: cover;
   background-position: center;
-}
+}*/
+
 
 .bgOneTop {
   background-image: url("../src/Components/Assets/images/bannerOne.png");
