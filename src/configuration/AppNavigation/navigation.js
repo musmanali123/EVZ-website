@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import ScreenOne from "../../Screens/ScreenOne";
 import ScreenThree from "../../Screens/ScreenThree";
 import ScreenTwo from "../../Screens/ScreenTwo";
-
+// all navigation screen
 export default function AppNavigation() {
   return (
     <Router>
